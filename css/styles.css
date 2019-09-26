@@ -15,8 +15,8 @@ Primary color (Purple): #990099
     --body-font-weight: 400;
     --heading-font-weight: 700;
     --bold-font-weight: bold;
-    --body-font: 'Karla', sans-serif;
-    --heading-font: 'Rubik', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+    --heading-font: 'Open Sans', sans-serif;
     --body-font-size: 16px;
     --h2-font-size: 18px;
     --h1-font-size: 22px;
@@ -54,7 +54,7 @@ h2 {
     font-weight: var(--heading-font-weight);
 }
 
-nav, p {
+nav {
     font-weight: var(--bold-font-weight);
 }
 
@@ -208,23 +208,6 @@ input {
 textarea {
     float: var(--value-left);
     padding: var(--secondary-padding);
-}
-
-.contact {
-    clear: both;
-    display: flex;
-    flex-direction: row;
-    text-align: var(--center-text-align);
-    margin-left: var(--value-300);
-    margin-top: var(--margin-100);
-}
-
-.contact__item {
-    float: var(--value-left);
-    margin-left: 500px;
-    margin-top: 50px;
-    width: var(--value-300);
-    text-align: var(--value-left);
 }
 
 @media all and (max-width: 640px) {

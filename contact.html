@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <!--html comment looks like this-->
 
 <head>
@@ -7,9 +7,8 @@
     <title>Vinny's - Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -39,7 +38,7 @@
 
     <div class="form">
         <h1>Connect with me</h1>
-        <form action="" method="post" id="contact-form">
+        <form action="value" method="post" id="contact-form">
             <label class="standard-label" for="contact-email"> Email:</label>
             <input type="email" id="contact-email" required>
 
@@ -49,32 +48,23 @@
             <label class="standard-label" for="contact-message">Message: </label>
             <textarea maxlength="240" id="contact-message" required></textarea>
 
-            <label class="standard-label" for="submit-button"></label>
-            <input type="submit" value="Send message">
+            <label class="standard-label" for="send-button"></label>
+            <input type="submit" value="Send message" id="send-button">
 
         </form>
     </div>
-    <footer class="contact">
-        <h2>My Contact info</h2>
-        <div class="contact__item">
-            <strong>Address:</strong>
-            <br>
-            24 test street
-            <br>
-            City
-            <br>
-            Country
-            <br>
-            <br>
-            <strong>Tel:</strong><a href="tel: 1334558426" aria-label="call at 1 3 3 . 4 5 5 . 8 4 2 6.">133 455
-                8426</a><br>
-            <strong>Skype:</strong><a href="skype:hello.skypeid">hello.skypeid</a><br>
-            <strong>Email:</strong> <a href="mailto:office@email.com">office@email.com</a><br>
-            <br>
-            <a href="mailto:office@email.com"><strong>Contact Me</strong></a>
+    <footer class="page-footer">
+        <br>
+        <p><strong>Find me on</strong></p>
+        <!--Add logo for sites-->
+        <div class="social-media">
+            <img src="img/github-icon.svg" alt="Github icon" width="30" height="30">
+
+            <img src="img/twitter-icon.svg" alt="Twitter icon" width="30" height="30">
+
+            <img src="img/linkedin-icon.svg" alt="Linkedin icon" width="30" height="30">
         </div>
     </footer>
-
 </body>
 
 </html>
